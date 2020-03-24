@@ -5,6 +5,7 @@ const server=http.createServer((req,res)=>{
     res.setHeader('Content-Type','text/html');
     const url=req.url;
     const method=req.method;
+    const addd="hello";
     console.log(req.url,req.method);
     if(url==='/')
     {
